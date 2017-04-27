@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bluora\\LaravelIcal\\": "src/"
+            "Bluora\\LaravelIcs\\": "src/"
         }
     }
 }
