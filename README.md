@@ -1,4 +1,4 @@
-# Laravel Number Converter
+# Laravel ICS
 
 This package provides a Laravel wrapper to the [eluceo — iCal](https://github.com/markuspoerschke/iCal) package that provides the ability to convert a numerics number to a word, roman numeral, or an ordinal suffix.
 
