@@ -1,0 +1,12 @@
+before_script:
+  - composer self-update
+  - composer install --prefer-dist --no-interaction
+after_script:
+  - php vendor/bin/test-reporter --stdout > codeclimate.json
+  - "curl -X POST -d @codeclimate.json -H 'Content-Type: application/json' -H 'User-Agent: Code Climate (PHP Test Reporter v0.1.1)' https://codeclimate.com/test_reports"
+php:
+  - 7.0
+language: php
+matrix: 
+  allow_failures:
+  - php: hhvm
