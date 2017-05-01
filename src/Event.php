@@ -2,7 +2,6 @@
 
 namespace Bluora\LaravelIcs;
 
-use Eluceo\iCal\Component\Calendar as Calendar;
 use Eluceo\iCal\Component\Event as CalendarEvent;
 
 class Event extends CalendarEvent
