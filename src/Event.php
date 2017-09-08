@@ -31,6 +31,7 @@ class Event extends CalendarEvent
         $this->calendar = new Calendar($product_id);
         $this->calendar->setCalendarScale(Calendar::CALSCALE_GREGORIAN);
         $this->setPublishMethod();
+
         return $this;
     }
 
@@ -96,7 +97,7 @@ class Event extends CalendarEvent
 
     /**
      * Set a calendar property.
-     * 
+     *
      * @return Event
      */
     public function setCalendar($method, $value)
@@ -108,7 +109,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to publish.
-     * 
+     *
      * @return Event
      */
     public function setPublishMethod()
@@ -118,7 +119,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to request.
-     * 
+     *
      * @return Event
      */
     public function setRequestMethod()
@@ -128,7 +129,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to reply.
-     * 
+     *
      * @return Event
      */
     public function setReplyMethod()
@@ -138,7 +139,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to add.
-     * 
+     *
      * @return Event
      */
     public function setAddMethod()
@@ -148,7 +149,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to cancel.
-     * 
+     *
      * @return Event
      */
     public function setCancelMethod()
@@ -158,7 +159,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to refresh.
-     * 
+     *
      * @return Event
      */
     public function setRefreshMethod()
@@ -168,7 +169,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to counter.
-     * 
+     *
      * @return Event
      */
     public function setCounterMethod()
@@ -178,7 +179,7 @@ class Event extends CalendarEvent
 
     /**
      * Set the method to counter.
-     * 
+     *
      * @return Event
      */
     public function setDeclineCounterMethod()
@@ -194,14 +195,15 @@ class Event extends CalendarEvent
     public function __toString()
     {
         $this->calendar->addEvent($this);
+
         return $this->calendar->render();
     }
 
     /**
      * Download the event ics.
      *
-     * @param  string $product_id
-     * @param  string $filename
+     * @param string $product_id
+     * @param string $filename
      *
      * @return string
      */
