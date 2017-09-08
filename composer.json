@@ -1,5 +1,5 @@
 {
-    "name": "bluora/laravel-ics",
+    "name": "hnhdigital-os/laravel-ics",
     "description": "A Laravel warraper for the eluceo/iCal package that offers a abstraction layer for creating iCalendars. You can easily create iCal files by using PHP object instead of typing your *.ics file by hand. The output will follow RFC 5545 as best as possible.",
     "keywords": [
         "ical",
