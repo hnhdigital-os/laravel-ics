@@ -12,17 +12,17 @@ This package has been developed by H&H|Digital, an Australian botique developer.
 
 Via composer:
 
-`$ composer require bluora/laravel-ics dev-master`
+`$ composer require hnhdigital-os/laravel-ics dev-master`
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/bluora/laravel-ics/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/hnhdigital-os/laravel-ics/blob/master/CONTRIBUTING.md) for details.
 
 ## Credits
 
 * [Rocco Howard](https://github.com/therocis)
-* [All Contributors](https://github.com/bluora/laravel-ics/contributors)
+* [All Contributors](https://github.com/hnhdigital-os/laravel-ics/contributors)
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/bluora/laravel-ics/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/hnhdigital-os/laravel-ics/blob/master/LICENSE) for more information.
